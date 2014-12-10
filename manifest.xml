@@ -1,0 +1,17 @@
+<package>
+  <description brief="spatial_db_msgs">
+
+     This package contains all messages used in the SpatialDB project.
+
+  </description>
+  <author>hdeeken</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/spatial_db_msgs</url>
+  <depend package="geometry_msgs"/>
+  <depend package="shape_msgs"/>
+  <depend package="visualization_msgs"/>
+
+</package>
+
+
