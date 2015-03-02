@@ -1,0 +1,3 @@
+#LabeledGeometryCollection
+string label
+spatial_db_msgs/GeometryCollection collection
