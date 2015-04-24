@@ -3,8 +3,7 @@ project(spatial_db_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
-  std_msgs
-  shape_msgs
+  mesh_msgs
   geometry_msgs
   visualization_msgs
   message_generation
@@ -36,15 +35,14 @@ TriangleMesh3DModel.msg
 
 generate_messages(
   DEPENDENCIES
-  std_msgs shape_msgs geometry_msgs visualization_msgs
+  mesh_msgs geometry_msgs visualization_msgs
 )
 
 catkin_package(
   INCLUDE_DIRS
   CATKIN_DEPENDS
     roscpp
-    std_msgs
-    shape_msgs
+    mesh_msgs
     geometry_msgs
     visualization_msgs
 )

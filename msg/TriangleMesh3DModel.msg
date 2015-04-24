@@ -1,4 +1,4 @@
 int32 id
 string type
 geometry_msgs/Pose pose
-shape_msgs/Mesh geometry
+mesh_msgs/TriangleMesh geometry
