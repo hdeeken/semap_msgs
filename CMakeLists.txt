@@ -15,6 +15,7 @@ BoundingBox.msg
 BoundingBoxStamped.msg
 ColorCommand.msg
 GeometryCollection.msg
+GeometryModelSet.msg
 LabelCommand.msg
 LabeledBoundingBox.msg
 LabeledGeometryCollection.msg
