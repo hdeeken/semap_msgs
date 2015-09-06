@@ -1,4 +1,4 @@
 int32 id
 string type
-spatial_db_msgs/GeometryModelSet geometries
-spatial_db_msgs/GeometryModelSet abstractions
+semap_msgs/GeometryModelSet geometries
+semap_msgs/GeometryModelSet abstractions

@@ -1,3 +1,3 @@
 #LabeledGeometryCollection
 string label
-spatial_db_msgs/GeometryCollection collection
+semap_msgs/GeometryCollection collection
