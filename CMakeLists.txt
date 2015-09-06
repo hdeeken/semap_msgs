@@ -19,6 +19,7 @@ GeometryModelSet.msg
 LabelCommand.msg
 LabeledBoundingBox.msg
 LabeledGeometryCollection.msg
+ObjectPair.msg
 ObjectDescription.msg
 ObjectInstance.msg
 ObjectInstanceOverview.msg
