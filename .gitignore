@@ -3,6 +3,13 @@ bin/
 lib/
 msg_gen/
 srv_gen/
+src/semap_msgs/
+
+.cproject
+.project
+.pydevproject
+cmake_install.cmake
+
 msg/*Action.msg
 msg/*ActionFeedback.msg
 msg/*ActionGoal.msg
@@ -45,3 +52,7 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+=======
+*.pyc
+*~
+*.swp

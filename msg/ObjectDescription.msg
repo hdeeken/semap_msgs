@@ -1,0 +1,4 @@
+int32 id
+string type
+semap_msgs/GeometryModelSet geometries
+semap_msgs/GeometryModelSet abstractions

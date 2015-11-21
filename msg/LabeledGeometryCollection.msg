@@ -1,0 +1,3 @@
+#LabeledGeometryCollection
+string label
+semap_msgs/GeometryCollection collection
