@@ -9,36 +9,13 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
 )
 
-add_message_files(
-FILES
-BoundingBox.msg
-BoundingBoxStamped.msg
-ColorCommand.msg
-GeometryCollection.msg
-GeometryModelSet.msg
-LabelCommand.msg
-LabeledBoundingBox.msg
-LabeledGeometryCollection.msg
-ObjectPair.msg
-ObjectConstraint.msg
-ObjectDescription.msg
-ObjectInstance.msg
-ObjectInstanceOverview.msg
-OrientationBox.msg
-OneToMany.msg
-Point2DModel.msg
-Point3DModel.msg
-Polygon2DModel.msg
-Polygon3DModel.msg
-PolygonMesh3DModel.msg
-Pose2DModel.msg
-Pose3DModel.msg
-TriangleMesh3DModel.msg
-)
+add_message_files( DIRECTORY msg )
 
 generate_messages(
   DEPENDENCIES
-  mesh_msgs geometry_msgs visualization_msgs
+  mesh_msgs
+  geometry_msgs
+  visualization_msgs
 )
 
 catkin_package(
